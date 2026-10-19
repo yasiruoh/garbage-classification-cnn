@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.streamlit/secrets.toml
+models/*
+!models/README.md
+!models/schema.example.json
+outputs/*
+!outputs/.gitkeep
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.h5
